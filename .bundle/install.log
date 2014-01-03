@@ -1,0 +1,11 @@
+# Logfile created on 2014-01-04 03:59:56 +0900 by logger.rb/41954
+I, [2014-01-04T03:59:56.983092 #8207]  INFO -- : 0:  rack (1.5.2) from /Users/awwa/.rvm/gems/ruby-2.1.0-head/specifications/rack-1.5.2.gemspec
+I, [2014-01-04T03:59:56.983401 #8207]  INFO -- : 0:  rack-protection (1.5.1) from /Users/awwa/.rvm/gems/ruby-2.1.0-head/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-04T03:59:56.983610 #8207]  INFO -- : 0:  tilt (1.4.1) from /Users/awwa/.rvm/gems/ruby-2.1.0-head/specifications/tilt-1.4.1.gemspec
+I, [2014-01-04T03:59:56.983803 #8207]  INFO -- : 0:  sinatra (1.4.4) from /Users/awwa/.rvm/gems/ruby-2.1.0-head/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-04T03:59:56.983980 #8207]  INFO -- : 0:  bundler (1.5.1) from /Users/awwa/.rvm/gems/ruby-2.1.0-head@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-04T04:42:14.846219 #9362]  INFO -- : 0:  rack (1.5.2) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-04T04:42:20.392951 #9362]  INFO -- : 0:  rack-protection (1.5.1) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-04T04:42:22.714026 #9362]  INFO -- : 0:  tilt (1.4.1) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-04T04:42:26.967208 #9362]  INFO -- : 0:  sinatra (1.4.4) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-04T04:42:26.967610 #9362]  INFO -- : 0:  bundler (1.5.1) from /Users/awwa/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
