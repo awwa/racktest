@@ -1,9 +1,9 @@
 require 'rubygems'
 require 'sinatra'
-require 'haml'
+# require 'haml'
 require 'erb'
 require 'rexml/document'
-require 'erubis'
+# require 'erubis'
 require './rest.rb'
 
 get '/' do
