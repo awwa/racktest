@@ -7,6 +7,7 @@ require 'rexml/document'
 # require 'erubis'
 require './rest.rb'
 require './config/environments'
+require './models/model'
 
 get '/' do
 	'under construction'
