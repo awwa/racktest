@@ -1,10 +1,12 @@
 require 'rubygems'
 require 'sinatra'
+require 'sinatra/activerecord'
 # require 'haml'
 require 'erb'
 require 'rexml/document'
 # require 'erubis'
 require './rest.rb'
+require './config/environments'
 
 get '/' do
 	'under construction'

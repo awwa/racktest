@@ -9,3 +9,77 @@ I, [2014-01-04T04:42:20.392951 #9362]  INFO -- : 0:  rack-protection (1.5.1) fro
 I, [2014-01-04T04:42:22.714026 #9362]  INFO -- : 0:  tilt (1.4.1) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
 I, [2014-01-04T04:42:26.967208 #9362]  INFO -- : 0:  sinatra (1.4.4) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
 I, [2014-01-04T04:42:26.967610 #9362]  INFO -- : 0:  bundler (1.5.1) from /Users/awwa/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-05T09:52:16.295749 #10686]  INFO -- : 0:  i18n (0.6.9) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-01-05T09:52:16.296461 #10686]  INFO -- : 0:  minitest (4.7.5) from /Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-01-05T09:52:17.130551 #10686]  INFO -- : 0:  multi_json (1.8.2) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-05T09:52:19.042402 #10686]  INFO -- : 0:  atomic (1.1.14) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-01-05T09:52:19.910260 #10686]  INFO -- : 0:  thread_safe (0.1.3) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-05T09:52:21.108055 #10686]  INFO -- : 0:  tzinfo (0.3.38) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-05T09:52:21.999347 #10686]  INFO -- : 0:  activesupport (4.0.2) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-01-05T09:52:22.800768 #10686]  INFO -- : 0:  builder (3.1.4) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-01-05T09:52:23.577150 #10686]  INFO -- : 0:  activemodel (4.0.2) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.2.gemspec
+I, [2014-01-05T09:52:24.350527 #10686]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-01-05T09:52:25.148290 #10686]  INFO -- : 0:  arel (4.0.1) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-01-05T09:52:26.131272 #10686]  INFO -- : 0:  activerecord (4.0.2) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.2.gemspec
+E, [2014-01-05T09:52:27.167392 #10686] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/awwa/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb 
+checking for pg_config... no
+No pg_config... trying anyway. If building fails, please try again with
+ --with-pg-config=/path/to/pg_config
+checking for libpq-fe.h... no
+Can't find the 'libpq-fe.h header
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/awwa/.rvm/rubies/ruby-2.1.0/bin/ruby
+	--with-pg
+	--without-pg
+	--with-pg-config
+	--without-pg-config
+	--with-pg_config
+	--without-pg_config
+	--with-pg-dir
+	--without-pg-dir
+	--with-pg-include
+	--without-pg-include=${pg-dir}/include
+	--with-pg-lib
+	--without-pg-lib=${pg-dir}/lib
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/awwa/.rvm/gems/ruby-2.1.0/gems/pg-0.17.1 for inspection.
+Results logged to /Users/awwa/.rvm/gems/ruby-2.1.0/extensions/x86_64-darwin-13/2.1.0/pg-0.17.1/gem_make.out
+
+/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `load'  \n/Users/awwa/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `<main>'  \n/Users/awwa/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/Users/awwa/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-01-05T10:02:43.455973 #11237]  INFO -- : 0:  i18n (0.6.9) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-01-05T10:02:43.456285 #11237]  INFO -- : 0:  minitest (4.7.5) from /Users/awwa/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-01-05T10:02:43.456491 #11237]  INFO -- : 0:  multi_json (1.8.2) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-05T10:02:43.456688 #11237]  INFO -- : 0:  atomic (1.1.14) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-01-05T10:02:43.456878 #11237]  INFO -- : 0:  thread_safe (0.1.3) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-05T10:02:43.457070 #11237]  INFO -- : 0:  tzinfo (0.3.38) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-05T10:02:43.457263 #11237]  INFO -- : 0:  activesupport (4.0.2) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-01-05T10:02:43.457451 #11237]  INFO -- : 0:  builder (3.1.4) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-01-05T10:02:43.457635 #11237]  INFO -- : 0:  activemodel (4.0.2) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.2.gemspec
+I, [2014-01-05T10:02:43.457829 #11237]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-01-05T10:02:43.458013 #11237]  INFO -- : 0:  arel (4.0.1) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-01-05T10:02:43.458204 #11237]  INFO -- : 0:  activerecord (4.0.2) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.2.gemspec
+I, [2014-01-05T10:02:43.458390 #11237]  INFO -- : 0:  pg (0.17.1) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/pg-0.17.1.gemspec
+I, [2014-01-05T10:02:43.458579 #11237]  INFO -- : 0:  rack (1.5.2) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-05T10:02:43.458767 #11237]  INFO -- : 0:  rack-protection (1.5.1) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-05T10:02:43.458950 #11237]  INFO -- : 0:  tilt (1.4.1) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-05T10:02:43.459133 #11237]  INFO -- : 0:  sinatra (1.4.4) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-05T10:02:44.780001 #11237]  INFO -- : 0:  sinatra-activerecord (1.2.3) from /Users/awwa/.rvm/gems/ruby-2.1.0/specifications/sinatra-activerecord-1.2.3.gemspec
+I, [2014-01-05T10:02:44.780350 #11237]  INFO -- : 0:  bundler (1.5.1) from /Users/awwa/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
